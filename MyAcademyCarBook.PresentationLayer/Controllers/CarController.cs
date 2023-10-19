@@ -3,11 +3,11 @@ using MyAcademyCarBook.BusinessLayer.Abstrsct;
 
 namespace MyAcademyCarBook.PresentationLayer.Controllers
 {
-    public class CarController1 : Controller
+    public class CarController : Controller
     {
         private readonly ICarService _carService;
 
-        public CarController1(ICarService carService)
+        public CarController(ICarService carService)
         {
             _carService = carService;
         }

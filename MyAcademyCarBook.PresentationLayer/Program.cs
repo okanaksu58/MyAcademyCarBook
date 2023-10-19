@@ -18,6 +18,9 @@ builder.Services.AddScoped<ICarStatusService, CarStatusManager>();
 builder.Services.AddScoped<ICarDal,EfCarDal>();
 builder.Services.AddScoped<ICarService,CarMenager>();
 
+builder.Services.AddScoped<IPriceDal, EfPriceDal>();
+builder.Services.AddScoped<IPriceService, PriceManager>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

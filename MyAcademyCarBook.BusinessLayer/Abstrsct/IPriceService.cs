@@ -9,6 +9,8 @@ namespace MyAcademyCarBook.BusinessLayer.Abstrsct
 {
 	public interface IPriceService : IGenericService<Price>
 	{
+        public List<Price> TGetPricesWithCars();
 
-	}
+
+    }
 }
