@@ -1,0 +1,14 @@
+﻿@model MyAcademyCarBook.EntityLayer.Concrete.CarStatus
+
+@{
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h1>Durum Güncelleme Sayfası</h1>
+<form  method="post">
+    <input type="hidden" asp-for="CarStatusID" />
+    <label>Arab durum başlığı</label>
+    <input type="text" asp-for="CarStatusName" class="form-control" step="border:1px solid #2222" />
+    <br />
+    <button>Durum Güncelle</button>
+</form>
