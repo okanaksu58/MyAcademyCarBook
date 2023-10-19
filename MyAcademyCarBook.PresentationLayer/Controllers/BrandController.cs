@@ -37,14 +37,15 @@ namespace MyAcademyCarBook.PresentationLayer.Controllers
 			
 		}
         [HttpGet]
-        public IActionResult UpdateBrand()
+        public IActionResult UpdateBrand(int id)
         {
-            return View();
+			var value = _brandService.TGetById(id);
+            return View(value);
         }
         [HttpPost]
-        public IActionResult Update(Brand brand)
+        public IActionResult UpdateBrand(Brand brand)
         {
-            _brandService.TInsert(brand);
+            _brandService.TUpdate(brand);
             return RedirectToAction("Index");
         }
 
