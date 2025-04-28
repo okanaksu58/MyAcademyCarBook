@@ -1,30 +1,34 @@
-CarBook - Araç Kiralama Sistemi
-📚 Proje Hakkında
-CarBook, araç kiralama süreçlerini dijital ortama taşıyan bir uygulamadır. Kullanıcılar araç seçimi yapabilir, ödeme planı oluşturabilir ve kiralama işlemlerini güvenli şekilde tamamlayabilir. Proje, modern yazılım geliştirme standartlarına uygun olarak çok katmanlı mimari (Layered Architecture) kullanılarak tasarlanmıştır.
+# CarBook - Araç Kiralama Sistemi
 
-Bu projeyle, araç kiralama süreçlerini daha hızlı, kolay ve güvenli hale getirmek amaçlanmıştır.
+## 📚 Proje Hakkında
 
-🛠️ Kullanılan Teknolojiler
-ASP.NET Core
-Entity Framework Core
-C#
-MSSQL Server
-AutoMapper
-Dependency Injection
-Repository Design Pattern
-MVC (Model-View-Controller) Yapısı
-Bootstrap 5 (Front-End için)
+**CarBook**, kullanıcıların araç kiralama işlemlerini kolaylaştırmak için geliştirilmiş bir uygulamadır. Uygulama, araç seçimi, ödeme planı oluşturma, ödeme işlemleri ve kiralama işlemleri gibi birçok önemli fonksiyonu destekler. Proje, **çok katmanlı mimari** kullanılarak geliştirilmiştir ve kullanıcı dostu bir arayüze sahiptir.
 
-🚗 Temel Özellikler
-Araç listeleme ve detay görüntüleme
-Araç kiralama ve rezervasyon işlemleri
-Ödeme planı oluşturma ve ödeme tamamlama
-Kullanıcı dostu ve responsive tasarım
-Admin paneli üzerinden araç, müşteri ve rezervasyon yönetimi
-Çok katmanlı yapı (Entity, DataAccess, Business, Presentation katmanları)
+Bu projeyle, araç kiralama süreçlerini dijital ortamda daha hızlı ve güvenli hale getirmeyi amaçladım.
 
-📁 Proje Yapısı
-Entity Layer: Veritabanı tablolarına karşılık gelen sınıflar.
-Data Access Layer: Veriye erişim işlemleri (Repository pattern kullanıldı).
-Business Layer: İş kuralları ve servisler.
-Presentation Layer: Kullanıcı arayüzü (MVC)
+## 🛠️ Kullanılan Teknolojiler
+
+- **ASP.NET Core**
+- **Entity Framework Core**
+- **C#**
+- **MSSQL Server**
+- **AutoMapper**
+- **Dependency Injection**
+- **Repository Design Pattern**
+- **MVC (Model-View-Controller)** Yapısı
+- **Bootstrap 5** (Responsive tasarım)
+
+## 🚗 Temel Özellikler
+
+- **Araç Listeleme:** Kullanıcılar mevcut araçları listeleyebilir ve detaylarını görüntüleyebilir.
+- **Araç Kiralama:** Kullanıcılar seçtikleri araçları kiralayabilir ve rezervasyon yapabilir.
+- **Ödeme Planı:** Kullanıcılar ödeme planlarını oluşturabilir ve ödeme işlemleri gerçekleştirebilir.
+- **Admin Paneli:** Adminler araçları, kullanıcıları ve rezervasyonları yönetebilir.
+- **Responsive Tasarım:** Uygulama tüm cihazlarda düzgün bir şekilde çalışır.
+
+## 📁 Proje Yapısı
+
+- **Entity Layer:** Veritabanı tablolarına karşılık gelen sınıflar.
+- **Data Access Layer:** Veriye erişim işlemleri (Repository pattern kullanılarak).
+- **Business Layer:** İş kuralları ve servisler.
+- **Presentation Layer:** Kullanıcı arayüzü (MVC yapısında).
